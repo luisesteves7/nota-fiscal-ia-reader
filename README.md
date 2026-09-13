@@ -2,11 +2,13 @@
 
 Leitor de notas fiscais com IA: tire uma foto (ou envie um PDF), a IA extrai fornecedor, itens e valores automaticamente, e você acompanha seus gastos num histórico com dashboard.
 
-[![Demo ao vivo](https://img.shields.io/badge/demo-ao%20vivo-2563eb)](#) 
+[![Demo ao vivo](https://img.shields.io/badge/demo-ao%20vivo-2563eb)](https://nota-fiscal-ia-reader.vercel.app/demo) 
 [![CI](https://github.com/luisesteves7/nota-fiscal-ia-reader/actions/workflows/ci.yml/badge.svg)](https://github.com/luisesteves7/nota-fiscal-ia-reader/actions/workflows/ci.yml)
 [![Licença: MIT](https://img.shields.io/badge/licença-MIT-blue.svg)](LICENSE)
 
-**[🔗 Testar demo ao vivo](#)** — sem precisar criar conta, com notas de exemplo fictícias.
+**[🔗 Testar demo ao vivo](https://nota-fiscal-ia-reader.vercel.app/demo)** — sem precisar criar conta, com notas de exemplo fictícias.
+
+**[🚀 Acessar o app no ar](https://nota-fiscal-ia-reader.vercel.app)**
 
 ---
 
@@ -34,7 +36,7 @@ A IA nunca salva nada direto — o resultado sempre passa por uma tela de revis�
 - **Tela de revisão** — todo campo é editável antes de salvar; a IA sinaliza quando a confiança da leitura é baixa
 - **Histórico** — lista com busca, status de processamento e link pro arquivo original
 - **Dashboard** — total gasto, ticket médio, gasto por mês e por fornecedor (gráficos)
-- **Modo demo** ([`/demo`](#)) — fluxo completo com notas fictícias, sem precisar de conta nem de nenhuma chave de API configurada
+- **Modo demo** ([`/demo`](https://nota-fiscal-ia-reader.vercel.app/demo)) — fluxo completo com notas fictícias, sem precisar de conta nem de nenhuma chave de API configurada
 - **RLS no Supabase** — cada usuário só enxerga as próprias notas, a nível de banco de dados
 
 ## Stack
@@ -106,7 +108,7 @@ examples/                       # notas fictícias usadas no modo demo
 - [ ] Upload em lote (várias notas de uma vez, processadas em fila)
 - [ ] Categorização automática de gasto (alimentação, transporte, escritório...)
 - [ ] PWA — instalar no celular e funcionar quase como app nativo
-- [ ] Deploy ao vivo com modo demo público na Vercel
+- [x] Deploy ao vivo com modo demo público na Vercel
 
 ## Privacidade
 
@@ -114,4 +116,4 @@ Os dados usados no modo demo (`/examples`) são 100% fictícios — nenhum CNPJ,
 
 ## Licença
 
-[MIT](LICENSE)
+[MIT](LICENSE)  
