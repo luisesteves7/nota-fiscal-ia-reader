@@ -1,0 +1,15 @@
+{
+  "label": "Posto de combustível — CNPJ ilegível na foto",
+  "fileName": "exemplo-posto.jpg",
+  "invoice": {
+    "supplier_name": "Posto Fictício Combustíveis Ltda",
+    "supplier_cnpj": null,
+    "issue_date": "2025-06-20",
+    "invoice_number": "008841",
+    "total_amount": 220,
+    "confidence": 0.52,
+    "items": [
+      { "description": "Gasolina comum (litros)", "quantity": 40, "unit_price": 5.5, "total_price": 220 }
+    ]
+  }
+}

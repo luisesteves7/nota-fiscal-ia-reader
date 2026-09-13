@@ -1,0 +1,18 @@
+{
+  "label": "Mercado — compras do mês",
+  "fileName": "exemplo-mercado.jpg",
+  "invoice": {
+    "supplier_name": "Mercado Exemplo Ltda",
+    "supplier_cnpj": "22333444000195",
+    "issue_date": "2025-06-02",
+    "invoice_number": "017933",
+    "total_amount": 342.75,
+    "confidence": 0.88,
+    "items": [
+      { "description": "Arroz 5kg", "quantity": 2, "unit_price": 28.9, "total_price": 57.8 },
+      { "description": "Óleo de soja 900ml", "quantity": 4, "unit_price": 8.5, "total_price": 34 },
+      { "description": "Carne bovina (kg)", "quantity": 3.5, "unit_price": 42, "total_price": 147 },
+      { "description": "Produtos de limpeza (diversos)", "quantity": 1, "unit_price": 103.95, "total_price": 103.95 }
+    ]
+  }
+}

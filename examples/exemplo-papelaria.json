@@ -1,0 +1,17 @@
+{
+  "label": "Papelaria — material de escritório",
+  "fileName": "exemplo-papelaria.jpg",
+  "invoice": {
+    "supplier_name": "Papelaria Fictícia Ltda",
+    "supplier_cnpj": "11222333000181",
+    "issue_date": "2025-05-14",
+    "invoice_number": "000482",
+    "total_amount": 187.5,
+    "confidence": 0.94,
+    "items": [
+      { "description": "Resma de papel A4", "quantity": 3, "unit_price": 25.5, "total_price": 76.5 },
+      { "description": "Caixa de canetas esferográficas", "quantity": 5, "unit_price": 12, "total_price": 60 },
+      { "description": "Pasta arquivo suspenso", "quantity": 10, "unit_price": 5.1, "total_price": 51 }
+    ]
+  }
+}
